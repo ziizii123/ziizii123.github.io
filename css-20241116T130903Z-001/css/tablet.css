@@ -1,0 +1,106 @@
+@media screen and (max-width: 768px) {
+  /* NAVBAR */
+  .avatar {
+    display: none;
+  }
+  /* TARGET - PERSONAL INFORMATION */
+  input {
+    width: auto;
+  }
+
+  /*  KINH NGHIỆM - HỌC VẤN - HOẠT ĐỘNG - SỞ THÍCH - NGÔN NGỮ - KỸ NĂNG */
+  .combination-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .experience,
+  .education,
+  .activity,
+  .hobby-card,
+  .language-card,
+  .skill-card {
+    margin-bottom: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* CERTIFICATE */
+  .certificate-content {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 110px 150px;
+  }
+  .vertical-line-1 {
+    justify-self: center;
+    height: 260px;
+  }
+  .web-img,
+  .java-img,
+  .database-img {
+    height: 100px;
+    width: auto;
+  }
+
+  .web-img {
+    margin-right: 30px;
+    padding: 0;
+  }
+
+  .web-text {
+    grid-row: 2 /3;
+  }
+
+  .javascript-text {
+    grid-column: 3 / -1;
+  }
+
+  /* PROJECT */
+  .project-row {
+    display: block !important;
+  }
+
+  .news-project {
+    margin-top: 30px;
+  }
+
+  .cv-project {
+    margin-bottom: 30px;
+  }
+
+  /* PROJECT-CHARTER */
+  .project-container {
+    display: block !important;
+    padding: 50px 0;
+  }
+
+  .web-project {
+    margin-top: 0 !important;
+  }
+
+  .df,
+  .team-item {
+    display: block !important;
+  }
+
+  .team-icon,
+  .primary-icon {
+    margin-left: 47%;
+  }
+
+  /* GOALS */
+  .goal-item i {
+    margin-left: 45%;
+  }
+
+  .out,
+  .team-text,
+  .goal-text,
+  .primary-text,
+  .timeline-text {
+    margin: 10px;
+  }
+}

@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.df {
+  display: flex;
+}
+
+/* BACK TO CV SECTION */
+.back {
+  color: black;
+  text-decoration: none;
+  background-color: rgba(240, 248, 255, 0.73);
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.banner {
+  padding-left: 50px;
+}
+
+.back:hover {
+  font-weight: bold;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-below-header {
+  padding-top: 50px;
+}
+
+/* CV PROJECT */
+.cv-title {
+  text-align: center;
+  grid-column: 2 / 3;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-size: 50px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(76, 155, 235);
+  gap: 10px;
+  border-radius: 10px;
+}
+.container > div {
+  background-color: #ffffff;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.goals,
+.team,
+.timeline,
+.scope,
+.primary {
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.timeline {
+  grid-row: span 2;
+}
+
+.goals .goal-item,
+.team-item,
+.timeline-item,
+.primary-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.timeline-item {
+  margin-right: 15px;
+}
+
+.goals .goal-icon,
+.team-icon,
+.time-icon {
+  margin-right: 10px;
+  font-size: 1.2em;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2em;
+}
+
+.goal-border {
+  border-bottom: 1px solid #b7b7b7;
+  padding-bottom: 15px;
+}
+
+.goal-border-main {
+  border-bottom: 1px solid #444;
+  padding-bottom: 15px;
+}
+
+.team-icon {
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+.time-icon,
+.primary-icon {
+  padding: 6px;
+  border: 1px solid black;
+  background-color: rgb(179, 230, 246);
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.in {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.out {
+  margin-right: 10px;
+}
+
+.scope,
+.primary,
+.timeline {
+  margin-bottom: 30px;
+}

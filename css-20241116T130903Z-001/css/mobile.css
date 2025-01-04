@@ -1,0 +1,65 @@
+@media screen and (max-width: 576px) {
+  /* NAVBAR */
+  .avatar,
+  .self-img {
+    display: none;
+  }
+
+  nav,
+  .target-info,
+  .certificate-content,
+  .certificate-3,
+  .combination-section {
+    padding: 0;
+    min-height: 0;
+    display: block !important;
+  }
+
+  .navbar .nav-item {
+    text-align: left;
+    border: white 0px solid;
+    padding-left: 20px;
+  }
+
+  /* TARGET - PERSONAL INFORMATION */
+  .target-info {
+    margin-top: 150px;
+  }
+
+  input {
+    width: auto;
+  }
+
+  /*  KINH NGHIỆM - HỌC VẤN - HOẠT ĐỘNG - SỞ THÍCH - NGÔN NGỮ - KỸ NĂNG */
+  .combination {
+    margin-top: 100px;
+  }
+
+  /* CERTFICATE */
+  .vertical-line-1 {
+    border-top: 2px solid #d6c08d;
+    height: 2px;
+  }
+
+  .javascript,
+  .database,
+  .web-developing {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .web-text,
+  .javascript-text,
+  .database-text {
+    text-align: center;
+  }
+
+  /* PROJECTS */
+  .news-project {
+    margin-top: 30px;
+  }
+
+  .cv-project {
+    margin-bottom: 30px;
+  }
+}
